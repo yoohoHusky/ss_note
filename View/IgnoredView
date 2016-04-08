@@ -1,0 +1,15 @@
+### Android原生组件
+##### PopupWindow
+  ```java
+    PopupWindow popupWindow = new PopupWindow(content);
+    popupWindow.setWidth(200);
+    popupWindow.setHeight(200);
+    popupWindow.setContentView(view);
+    popupWindow.showAsDropDown(view, 40, 40);
+  ```
+
+
+##### ListViewAdapter
+  ```java
+  notifyDataSetChanged()
+  ```

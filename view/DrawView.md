@@ -151,3 +151,12 @@ return aimTextView;
 </shape>
 
 ```
+
+#### drawable目录下，.xml选择形式的图片
+1. xml文件夹下，select格式图片
+```xml
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:drawable="@drawable/on_switch_all" />
+    <item android:drawable="@drawable/off_switch_all" />
+</selector>
+```

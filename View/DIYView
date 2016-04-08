@@ -1,0 +1,8 @@
+#### diy view
+1. onCreate()   ：把需要的Bitmap，Pain，准备好
+2. onMeasure（） ：
+  ```java
+    setMeasuredDimension(底图.getHeight, 底图.getWidth)
+  ```
+3. onDraw(Canvas canvas): 用paint在canvas画bitmap
+4. invalidate()         : 更新UI效果
